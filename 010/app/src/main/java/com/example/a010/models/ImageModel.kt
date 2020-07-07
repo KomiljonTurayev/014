@@ -1,4 +1,6 @@
 package com.example.a010.models
 
-class ImageModel {
-}
+data class ImageModel(
+    var name: String? = null,
+    var imageName: Int? = null
+)
